@@ -10,8 +10,8 @@ import boto
 import boto.s3.connection
 
 conn = boto.connect_s3(
-        aws_access_key_id = 'AKIAJJQ3DNZPH2M7YUSQ',
-        aws_secret_access_key = '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',
+        aws_access_key_id = 'accessid',
+        aws_secret_access_key = 'somekey',
         is_secure=True,               # uncomment if you are not using ssl
         calling_format = boto.s3.connection.OrdinaryCallingFormat(),
         )
