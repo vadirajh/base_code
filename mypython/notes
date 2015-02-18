@@ -1,7 +1,0 @@
-Rabbit MQ
-  - To create a new user 
-         sudo rabbitmqctl add_user vadi vadi
-  - To grant permission to user 
-         sudo rabbitmqctl set_permissions -p / vadi ".*" ".*" ".*"
-
-working_consumer.py and working_producers work across network
